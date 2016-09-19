@@ -20,7 +20,6 @@ namespace _06_Book_Titles
             book.Title = "infernal";
             Assert.AreEqual("Infernal", book.Title);
         }
-
         [TestMethod]
         public void ShouldCapitalizeEveryWord()
         {
